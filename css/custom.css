@@ -70,15 +70,47 @@ table a {
   display:inline-block;
 }
 
+.schedule tr {
+    vertical-align: top;
+}
+
+.schedule tr td {
+    padding-top: 0.5ex;
+    padding-bottom: 0.5ex;
+}
+
+.schedule-nowrap {
+    white-space: nowrap;
+    padding-right: 1ex;
+}
+
+.schedule-author {
+    font-style: italic;
+}
+
 .schedule-header {
-  text-decoration: underline;
-  font-weight: bold;
-  
+    background-color: #212529;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.schedule-header td {
+    padding-top: 1ex !important;
+    padding-bottom: 1ex !important;
 }
 
 .schedule-break {
-  color: #585858;
+    background-color: #585858;
+    color: white;
+    text-align: center;
 }
+
+.schedule-break td {
+    padding-top: 1ex !important;
+    padding-bottom: 1ex !important;
+}
+
 
 /* ----- */
 
